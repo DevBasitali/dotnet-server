@@ -12,3 +12,6 @@ Thumbs.db
 
 # Local settings (optional)
 appsettings.Development.json
+
+aws-Folders
+/publish/

@@ -2,7 +2,7 @@ using SimpleApi.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.WebHost.UseUrls("http://0.0.0.0:5000"); // 👈 Add this line
+builder.WebHost.UseUrls("http://0.0.0.0:5000");
 var app = builder.Build();
 
 // Auto-migrate database on startup
